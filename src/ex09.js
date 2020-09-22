@@ -1,5 +1,5 @@
-const biggest = (array) => {
-    return null
+const biggest = (list) => {
+    return list.length > 0 ? Math.max(...list) : undefined
 }
 
-biggest([99, 100, 101, 1])
+console.log(biggest([99, 100, 101, 1]))
