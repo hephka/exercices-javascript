@@ -1,6 +1,10 @@
 const showStars = (nbStars) => {
-    for (let e = '*'; e.length <= nbStars; e += '*') {
+    
+    /* for (let e = '*'; e.length <= nbStars; e += '*') {
         console.log(e)
+    } */
+    for ( let i = 0; i <= nbStars; i += 1) {
+        console.log('*'.repeat(i))
     }
 }
 
