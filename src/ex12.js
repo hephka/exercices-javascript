@@ -10,7 +10,7 @@ const countWheels = (nb_monocycle, nb_moto, nb_voiture, nb_limousine) => {
         nb_monocycle*wheels.monocyle
         + nb_moto*wheels.moto
         + nb_voiture*wheels.voiture
-        + nb_limousine*wheels.limousine
+        + nb_limousine*wheels.limousin
     )
 }
 
